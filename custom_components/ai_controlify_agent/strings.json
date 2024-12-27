@@ -1,0 +1,27 @@
+{
+    "config": {
+        "step": {
+            "final": {
+                "data": {
+                    "name": "Name"
+                },
+                "data_description": {
+                    "name": "The name of conversation agent that will be created.\nUsed for identification in scripts, can be anything unique."
+                }
+            }
+        }
+    },
+    
+    "options": {
+        "step": {
+            "final": {
+                "data": {
+                    "agent": "AI Conversation Agent"
+                },
+                "data_description": {
+                    "agent": "The AI conversation agent where your requests will be send to."
+                }
+            }
+        }
+    }
+}

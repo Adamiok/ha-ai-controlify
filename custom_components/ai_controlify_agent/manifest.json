@@ -1,0 +1,15 @@
+{
+    "domain": "ai_controlify_agent",
+    "name": "AI Controlify Agent",
+    "codeowners": [
+        "@Adamiok"
+    ],
+    "config_flow": true,
+    "dependencies": [
+        "conversation"
+    ],
+    "integration_type": "service",
+    "iot_class": "calculated",
+    "requirements": [],
+    "version": "1.0.0"
+  }
