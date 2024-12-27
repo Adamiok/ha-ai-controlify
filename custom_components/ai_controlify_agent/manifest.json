@@ -8,8 +8,10 @@
     "dependencies": [
         "conversation"
     ],
+    "documentation": "https://github.com/Adamiok/ha-ai-controlify/tree/ci-fix",
     "integration_type": "service",
     "iot_class": "calculated",
+    "issue_tracker": "https://github.com/Adamiok/ha-ai-controlify/issues",
     "requirements": [],
     "version": "1.0.0"
   }
