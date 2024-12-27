@@ -28,7 +28,7 @@ It is built on top of the voice agent system in Home Assistant, so you can use a
 
 ## Suggestions
 
-I recommend using the [Fallback Conversation Agent](https://github.com/m50/ha-fallback-conversation/) (not developed by me) with this integration. Set the primary agent to the built-in Home Assistant agent and the fallback to the AI Controlify Agent. You will also need to set the Fallback Conversation Agent as your agent in the **Conversation Agent** tab.
+I recommend to enable `Prefer handling commands locally` on the **AI Controlify Agent**, to reduce the wait time (and cost) for simple commands. This setting attempts to use the fast local text matching assistant, before calling this integration and using an LLM.
 
 ## Contributions
 
